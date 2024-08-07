@@ -1,0 +1,17 @@
+/* * {
+    cursor :  !important;
+} */
+
+*::selection {
+    background: #6EACDA;
+    color: #fff;
+}
+
+.customHover {
+    transition: all 200ms ease-in-out;
+}
+
+.customHover:hover {
+    padding-left: 1.234567890rem;
+    padding-right: 1.234567890rem;
+}
