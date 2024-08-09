@@ -1,6 +1,6 @@
-/* * {
-    cursor :  !important;
-} */
+* {
+    cursor : none !important;
+}
 
 *::selection {
     background: #6EACDA;

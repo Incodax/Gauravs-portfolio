@@ -1,8 +1,7 @@
 {
-  "name": "portfolio-v2",
+  "name": "gauravs-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "vite"
   },
