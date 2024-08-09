@@ -1,6 +1,9 @@
 # Gaurav's portfolio
 
+<img src="assets/webimg.png" alt="Image of site">
+
 Welcome to the Personal Portfolio Website repository! This project showcases a professional and responsive portfolio website for highlighting skills, projects, and experiences. It's designed to be a comprehensive introduction to potential employers and clients.
+
 
 ## Live preview
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b6c6fb2b-b05a-4469-922a-ffdfd45596ea/deploy-status)](https://app.netlify.com/sites/gaurxv/deploys)
