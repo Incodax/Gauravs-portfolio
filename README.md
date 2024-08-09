@@ -4,7 +4,7 @@ Welcome to the Personal Portfolio Website repository! This project showcases a p
 
 ## Live preview
 
-Check out the live demo of the website [here](https://devgaurav.me).
+Check out the live demo of the website [devgaurav.me](https://devgaurav.me).
 
 ## Project Overview
 
