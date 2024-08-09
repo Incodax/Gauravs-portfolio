@@ -1,6 +1,8 @@
 # Gaurav's portfolio
+<div align="center">
+   <img src="assets/webimg.png" alt="Image of site" width="88%">
+</div>
 
-<img src="assets/webimg.png" alt="Image of site">
 
 Welcome to the Personal Portfolio Website repository! This project showcases a professional and responsive portfolio website for highlighting skills, projects, and experiences. It's designed to be a comprehensive introduction to potential employers and clients.
 
