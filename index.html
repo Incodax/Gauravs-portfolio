@@ -1,859 +1,644 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="initial-scale=0.5" />
-    <meta name="description" content="Gaurav's personal portfolio showcasing skills, experience, projects, and certifications in web and software development.">
-    <meta name="keywords" content="Gaurav, web developer, software developer, portfolio, HTML, CSS, Java, Python, AWS, projects">
-    <meta name="author" content="Gaurav">
-    <meta name="robots" content="index, follow">
-    <title>Gaurav's Portfolio Website</title>
-    <link rel="shortcut icon" href="assets/gauravx.webp" type="image/png">
-    <!-- <link rel="shortcut icon" href="assets/favicon.svg" type="image/svg"> -->
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <!-- Custom Cursor -->
-    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
-    <link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaurav Kumar - NextGenGK | devgaurav.me</title>
 
-    <!-- Botpress Integration -->
-    <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
-    <script src="https://mediafiles.botpress.cloud/5e19023c-a28a-4f28-9d48-c2e04b0639a6/webchat/v2/config.js"></script>
+  <link rel="shortcut icon" href="assets/favicon.svg" type="image/svg">
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q9FSZBQMGV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta name="description"
+    content="Learn all about Gaurav Kumar, the founder of NextGenGK, and his professional portfolio at devgaurav.me. Explore his projects, blog, and more.">
+  <meta name="keywords"
+    content="Gaurav Kumar, NextGenGK, devgaurav.me, software developer, tech blog, portfolio, projects">
 
-  gtag('config', 'G-Q9FSZBQMGV');
-</script>
-  </head>
+  <meta property="og:title" content="Gaurav Kumar - NextGenGK | devgaurav.me">
+  <meta property="og:description"
+    content="Explore Gaurav Kumar's professional journey, projects, and blog at devgaurav.me.">
+  <meta property="og:image" content="https://devgaurav.me/images/profile.jpg">
+  <meta property="og:url" content="https://devgaurav.me">
+  <meta property="og:type" content="website">
 
-  <body>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
+  <script src="https://mediafiles.botpress.cloud/5e19023c-a28a-4f28-9d48-c2e04b0639a6/webchat/v2/config.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q9FSZBQMGV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Q9FSZBQMGV');
+  </script>
+
+  <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Gaurav Kumar",
+          "url": "https://devgaurav.me",
+          "sameAs": [
+              "https://www.linkedin.com/in/gauravkumar",
+              "https://github.com/nextgengk",
+              "https://twitter.com/gauravkumar"
+          ],
+          "jobTitle": "Software Developer",
+          "worksFor": {
+              "@type": "Organization",
+              "name": "NextGenGK"
+          },
+          "image": "https://devgaurav.me/images/profile.jpg",
+          "description": "Gaurav Kumar is a software developer and founder of NextGenGK."
+      }
+      </script>
+
+<body>
+  <main>
     <div class="flex items-center justify-center min-h-screen">
       <div class="max-w-2xl mx-auto pt-16 py-6">
-        <div class="flex items-center justify-center">
-          <div class="w-9/12 text-left">
-            <h1 class="text-5xl font-bold">
-              Hi, I'm Gaurav<span class="wave">👋</span>
-            </h1>
-            <p class="text-gray-600 text-xl font-medium mt-3">
-              Student at Bhilai Institute of Technology, BIT
-            </p>
-            <p class="text-gray-600 text-xl font-medium">
-              Web Developer | Software Developer
-            </p>
-          </div>
-          <div class="w-3/12 flex justify-center">
-            <img
-              class="w-36 h-36 rounded-full"
-              src="/assets/gaurav_profile.png"
-              alt="Gaurav's Photo"
-            />
-          </div>
-        </div>
 
-        <div class="mt-8">
-          <h2 class="text-2xl font-semibold">About</h2>
-          <p class="text-gray-600 font-normal text-base mt-2">
-            Enthusiastic and dedicated software developer with a strong
-            foundation in web development and a keen interest in learning and
-            applying new technologies. Proficient in Html, CSS, C, C++, Python,
-            Java, and Spring Boot, and also have a strong knowledge of AWS
-            Cloud. I am eager to leverage my skills to contribute to innovative
-            projects.
-          </p>
-        </div>
-
-        <!---Work Experience-->
-        <div class="mt-8">
-          <h2 class="text-2xl font-semibold">Work Experience</h2>
-          <div class="mt-4">
-            <div class="flex justify-between items-top">
-              <div class="flex items-center">
-                <img
-                  class="w-9 h-9 rounded-square"
-                  src="assets/paramount-company.jfif"
-                  alt="Paramount"
-                />
-                <div class="ml-4">
-                  <h3 class="text-lg font-medium">
-                    Paramount Tech Solutions Pvt. Ltd.
-                  </h3>
-                  <p class="text-gray-600 font-normal text-sm -mt-1">
-                    Worpress Developer
-                  </p>
-                </div>
-              </div>
-              <div>
-                <p class="text-gray-600 font-normal text-base">
-                  Sep 2023 - Present
-                </p>
-              </div>
+        <section id="introduction">
+          <div class="flex items-center justify-center">
+            <div class="w-9/12 text-left">
+              <h1 class="text-5xl font-bold">
+                Hi, I'm Gaurav<span class="wave">👋</span>
+              </h1>
+              <p class="text-gray-600 text-xl font-medium mt-3">
+                Student at Bhilai Institute of Technology, BIT
+              </p>
+              <p class="text-gray-600 text-xl font-medium">
+                Web Developer | Software Developer
+              </p>
+            </div>
+            <div class="w-3/12 flex justify-center">
+              <img class="w-36 h-36 rounded-full" src="/assets/gaurav_profile.png" alt="Gaurav's Photo" />
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="flex mt-4">
-          <ul
-            class="max-w-2xl space-y-1 text-gray-600 list-disc list-inside dark:text-gray-400"
-          >
-            <li>
-              Creating and implementing website layouts and user interfaces.
-            </li>
-            <li>
-              Developing web applications and features to enhance user
-              experience.
-            </li>
-            <li>
-              Ensuring websites are responsive and accessible across various
-              devices and platforms.
-            </li>
-            <li>
-              Implementing responsive design techniques to optimize user
-              experience on desktops, tablets, and mobile devices.
-            </li>
-            <li>
-              Conducting thorough testing of websites and web applications to
-              identify and fix bugs, errors, or issues.
-            </li>
-          </ul>
-        </div>
+        <article id="about">
+          <div class="mt-8">
+            <h2 class="text-2xl font-semibold">About</h2>
+            <p class="text-gray-600 font-normal text-base mt-2">
+              Enthusiastic and dedicated software developer with a strong
+              foundation in web development and a keen interest in learning and
+              applying new technologies. Proficient in Html, CSS, C, C++, Python,
+              Java, and Spring Boot, and also have a strong knowledge of AWS
+              Cloud. I am eager to leverage my skills to contribute to innovative
+              projects.
+            </p>
+          </div>
+        </article>
 
-        <!---Education-->
-        <div class="mt-8">
-          <h2 class="text-2xl font-semibold">Education</h2>
-          <div class="mt-4">
-            <div class="flex justify-between items-center">
-              <div class="flex items-center">
-                <img
-                  class="w-10 h-10 rounded-square border-2 bg-slate-100"
-                  src="assets/Durg_University.png"
-                  alt="Durg University"
-                />
-                <div class="ml-4">
-                  <h3 class="text-lg font-medium">
-                    Bachelor of Computer Application
-                  </h3>
-                  <p class="text-gray-600 font-normal text-sm -mt-1">
-                    Durg University
-                  </p>
-                </div>
-              </div>
-              <div>
-                <p class="text-gray-600 font-normal text-base">
-                  Aug 2020 - July 2023
-                </p>
-              </div>
-            </div>
-
-            <div class="mt-6">
-              <div class="flex justify-between items-center">
+        <article id="work">
+          <div class="mt-8">
+            <h2 class="text-2xl font-semibold">Work Experience</h2>
+            <div class="mt-4">
+              <div class="flex justify-between items-top">
                 <div class="flex items-center">
-                  <img
-                    class="w-10 h-10 rounded-square border-2 bg-slate-100"
-                    src="assets/cgbse.png"
-                    alt="Cgbse Board"
-                  />
+                  <img class="w-9 h-9 rounded-square" src="assets/paramount-company.jfif" alt="Paramount" />
                   <div class="ml-4">
                     <h3 class="text-lg font-medium">
-                      Senior Secondary XII (Science)
+                      Paramount Tech Solutions Pvt. Ltd.
                     </h3>
                     <p class="text-gray-600 font-normal text-sm -mt-1">
-                      CGBSE Board
+                      Worpress Developer
                     </p>
                   </div>
                 </div>
                 <div>
                   <p class="text-gray-600 font-normal text-base">
-                    July 2019 - May 2020
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="mt-6">
-              <div class="flex justify-between items-center">
-                <div class="flex items-center">
-                  <img
-                    class="w-10 h-10 rounded-square border-2 bg-slate-100"
-                    src="assets/cgbse.png"
-                    alt="Cgbse Board"
-                  />
-                  <div class="ml-4">
-                    <h3 class="text-lg font-medium">Secondary X</h3>
-                    <p class="text-gray-600 font-normal text-sm -mt-1">
-                      CGBSE Board
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <p class="text-gray-600 font-normal text-base">
-                    July 2018 - May 2019
+                    Sep 2023 - Present
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-----SKills-->
+          <div class="flex mt-4">
+            <ul class="max-w-2xl space-y-1 text-gray-600 list-disc list-inside dark:text-gray-400">
+              <li>
+                Creating and implementing website layouts and user interfaces.
+              </li>
+              <li>
+                Developing web applications and features to enhance user
+                experience.
+              </li>
+              <li>
+                Ensuring websites are responsive and accessible across various
+                devices and platforms.
+              </li>
+              <li>
+                Implementing responsive design techniques to optimize user
+                experience on desktops, tablets, and mobile devices.
+              </li>
+              <li>
+                Conducting thorough testing of websites and web applications to
+                identify and fix bugs, errors, or issues.
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article id="education">
+          <div class="mt-8">
+            <h2 class="text-2xl font-semibold">Education</h2>
+            <div class="mt-4">
+              <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                  <img class="w-10 h-10 rounded-square border-2 bg-slate-100" src="assets/Durg_University.png"
+                    alt="Durg University" />
+                  <div class="ml-4">
+                    <h3 class="text-lg font-medium">
+                      Bachelor of Computer Application
+                    </h3>
+                    <p class="text-gray-600 font-normal text-sm -mt-1">
+                      Durg University
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p class="text-gray-600 font-normal text-base">
+                    Aug 2020 - July 2023
+                  </p>
+                </div>
+              </div>
+
+              <div class="mt-6">
+                <div class="flex justify-between items-center">
+                  <div class="flex items-center">
+                    <img class="w-10 h-10 rounded-square border-2 bg-slate-100" src="assets/cgbse.png"
+                      alt="Cgbse Board" />
+                    <div class="ml-4">
+                      <h3 class="text-lg font-medium">
+                        Senior Secondary XII (Science)
+                      </h3>
+                      <p class="text-gray-600 font-normal text-sm -mt-1">
+                        CGBSE Board
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-gray-600 font-normal text-base">
+                      July 2019 - May 2020
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-6">
+                <div class="flex justify-between items-center">
+                  <div class="flex items-center">
+                    <img class="w-10 h-10 rounded-square border-2 bg-slate-100" src="assets/cgbse.png"
+                      alt="Cgbse Board" />
+                    <div class="ml-4">
+                      <h3 class="text-lg font-medium">Secondary X</h3>
+                      <p class="text-gray-600 font-normal text-sm -mt-1">
+                        CGBSE Board
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-gray-600 font-normal text-base">
+                      July 2018 - May 2019
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </article>
+
+        <article id="skills">
           <div class="mt-8">
             <h2 class="text-2xl font-semibold">Skills</h2>
             <div class="mt-4">
               <div class="flex justify-between items-center">
                 <div class="flex items-center">
                   <div class="w-9/12 text-left">
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg"
-                    >
+                    <button type="button"
+                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg">
                       C
                     </button>
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg"
-                    >
+                    <button type="button"
+                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg">
                       C++
                     </button>
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg"
-                    >
+                    <button type="button"
+                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg">
                       HTML
                     </button>
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg"
-                    >
+                    <button type="button"
+                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg">
                       CSS
                     </button>
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg"
-                    >
+                    <button type="button"
+                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg">
                       JavaScript
                     </button>
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg"
-                    >
+                    <button type="button"
+                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg">
                       Java
                     </button>
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg"
-                    >
+                    <button type="button"
+                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg">
                       Python
                     </button>
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg"
-                    >
+                    <button type="button"
+                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg">
                       Spring Boot
                     </button>
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg mt-2"
-                    >
+                    <button type="button"
+                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg mt-2">
                       MongoDB
                     </button>
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg mt-2"
-                    >
+                    <button type="button"
+                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg mt-2">
                       Git
                     </button>
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg mt-2"
-                    >
+                    <button type="button"
+                      class="px-3 py-1 text-xs font-medium text-center text-white bg-black rounded-lg mt-2">
                       Docker
                     </button>
                   </div>
                 </div>
               </div>
             </div>
+        </article>
 
-            <!---Certifications-->
-            <div class="mt-8">
-              <h2 class="text-2xl font-semibold">Certifications</h2>
-              <div class="mt-4">
-                <div class="flex justify-between items-center">
-                  <div class="flex items-center">
-                    <img
-                      class="w-9 h-9 rounded-square"
-                      src="assets/great_learning_logo.jfif"
-                      alt="Java"
-                    />
-                    <div class="ml-4">
-                      <h3 class="text-lg font-medium">Java Certification</h3>
-                      <p class="text-gray-600 font-normal text-sm -mt-1">
-                        By Great Learning
-                      </p>
-                    </div>
-                  </div>
-                  <div>
-                    <p class="text-gray-600 font-normal text-base">
-                      April 2022
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+        <article id="certificates">
+          <div class="mt-8">
+            <h2 class="text-2xl font-semibold">Certifications</h2>
             <div class="mt-4">
               <div class="flex justify-between items-center">
-                <div class="flex items-top">
-                  <img
-                    class="w-9 h-9 rounded-square border-2 bg-slate-100"
-                    src="assets/cognitiveclass_logo.jfif"
-                    alt="Python"
-                  />
-                  <div class="ml-4">
-                    <h3 class="text-lg font-medium">Python Certification</h3>
-                    <p class="text-gray-600 font-normal text-sm -mt-1">
-                      By Cognitive Class
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <p class="text-gray-600 font-normal text-base">April 2022</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="mt-4">
-              <div class="flex justify-between items-top">
                 <div class="flex items-center">
-                  <img
-                    class="w-9 h-9 rounded-square border-2 bg-slate-100"
-                    src="assets/udemy_logo.jfif"
-                    alt="Wordpress"
-                  />
+                  <img class="w-9 h-9 rounded-square" src="assets/great_learning_logo.jfif" alt="Java" />
                   <div class="ml-4">
-                    <h3 class="text-lg font-medium">Wordpress Certification</h3>
+                    <h3 class="text-lg font-medium">Java Certification</h3>
                     <p class="text-gray-600 font-normal text-sm -mt-1">
-                      By Udemy
+                      By Great Learning
                     </p>
                   </div>
                 </div>
                 <div>
-                  <p class="text-gray-600 font-normal text-base">May 2022</p>
+                  <p class="text-gray-600 font-normal text-base">
+                    April 2022
+                  </p>
                 </div>
               </div>
             </div>
-
-            <div class="mt-4">
-              <div class="flex justify-between items-top">
-                <div class="flex items-center">
-                  <img
-                    class="w-9 h-9 rounded-square"
-                    src="assets/simpiliearn_logo.jfif"
-                    alt="Git"
-                  />
-                  <div class="ml-4">
-                    <h3 class="text-lg font-medium">
-                      Git & Github Certification
-                    </h3>
-                    <p class="text-gray-600 font-normal text-sm -mt-1">
-                      By Simpiliearn
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <p class="text-gray-600 font-normal text-base">May 2022</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex items-center justify-center mt-8">
-              <div class="text-center py-16">
-                <button
-                  class="bg-black text-white text-sm font-medium px-3 py-1 rounded-lg"
-                >
-                  My Projects
-                </button>
-                <h1 class="text-4xl font-bold mt-2">
-                  Check out my latest work
-                </h1>
-                <p class="text-gray-700 text-xl font-medium mt-4 px-4">
-                  I've worked on a variety of projects, from simple websites to
-                  complex web applications. Here are a few of my favorites.
-                </p>
-              </div>
-            </div>
-
-            <!----Cards---->
-            <div class="flex items-center justify-center">
-              <div class="max-w-2xl mx-auto pt-2">
-                <!-- Your existing content -->
-                <div class="mt-2 flex justify-between space-x-4">
-                  <!-- First Card -->
-                  <div
-                    class="w-1/2 max-w-sm bg-white border border-white-200 rounded-lg shadow-lg mb-6"
-                  >
-                    <div class="p-6">
-                      <h2 class="text-xl font-bold mb-2">
-                        AWS Lambda Function to automatically stop and start EC2
-                        Instances
-                      </h2>
-                      <p class="text-gray-600 text-sm mb-4">
-                        Jan 2024 - Feb 2024
-                      </p>
-                      <div class="flex mt-4">
-                        <ul
-                          class="max-w-2xl space-y-1 text-gray-600 list-disc list-inside dark:text-gray-400"
-                        >
-                          <li>
-                            Scripted a Lambda function using Python3.7 which
-                            stop and start the EC2 instances.
-                          </li>
-                          <li>
-                            Triggered the Lambda function using a Cloudwatch
-                            event.
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="flex flex-wrap gap-2 my-4">
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >AWS EC2 Server</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Lambdas Function</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Cloudwatch</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Express</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Python 3.7</span
-                        >
-                      </div>
-                      <!-- <div class="flex items-center">
-                        <button
-                          class="mt-2"
-                          type="button"
-                          style="
-                            background-color: #000000;
-                            color: white;
-                            border: none;
-                            border-radius: 0.375rem;
-                            padding: 0.25rem 0.9rem;
-                            display: inline-flex;
-                            align-items: center;
-                            font-size: 0.75rem;
-                            font-weight: 500;
-                            cursor: pointer;
-                          "
-                        >
-                          <svg
-                            style="
-                              width: 0.7rem;
-                              height: 0.7rem;
-                              margin-right: 0.375rem;
-                            "
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
-                              clip-rule="evenodd"
-                            />
-                          </svg>
-                          Source
-                        </button>
-                      </div> -->
-                    </div>
-                  </div>
-
-                  <!-- Second Card -->
-                  <div
-                    class="w-1/2 max-w-sm bg-white border border-white-200 rounded-lg shadow-lg mb-6"
-                  >
-                    <div class="p-6">
-                      <h2 class="text-xl font-bold mb-2">
-                        Static website hosted on AWS S3.
-                      </h2>
-                      <p class="text-gray-600 text-sm mb-4">
-                        Feb 2024 - Mar 2024
-                      </p>
-                      <div class="flex mt-4">
-                        <ul
-                          class="max-w-2xl space-y-1 text-gray-600 list-disc list-inside dark:text-gray-400"
-                        >
-                          <li>
-                            Deployed a static website on AWS S3 and Implemented
-                            HTTPS and OAI using CloudFront
-                          </li>
-                          <li>
-                            Created a public hosted zone in Route53 to route the
-                            requests to CloudFront distribution.
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="flex flex-wrap gap-2 my-4">
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >AWS S3</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >CloudFront</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Route53</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Express</span
-                        >
-                      </div>
-                      <!-- <div class="flex items-center">
-                        <button
-                          class="mt-2"
-                          type="button"
-                          style="
-                            background-color: #000000;
-                            color: white;
-                            border: none;
-                            border-radius: 0.375rem;
-                            padding: 0.25rem 0.9rem;
-                            display: inline-flex;
-                            align-items: center;
-                            font-size: 0.75rem;
-                            font-weight: 500;
-                            cursor: pointer;
-                          "
-                        >
-                          <svg
-                            style="
-                              width: 0.7rem;
-                              height: 0.7rem;
-                              margin-right: 0.375rem;
-                            "
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
-                              clip-rule="evenodd"
-                            />
-                          </svg>
-                          Source
-                        </button>
-                      </div> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!------third card----->
-            <div class="flex items-center justify-center">
-              <div class="max-w-2xl mx-auto py-2">
-                <div class="mt-4 flex justify-between space-x-4">
-                  <div
-                    class="w-1/2 max-w-sm bg-white border border-white-200 rounded-lg shadow-lg mb-6"
-                  >
-                    <div class="p-6">
-                      <h2 class="text-xl font-bold mb-2">
-                        Developed a ChatCSV App (Chat with our own CSV files)
-                      </h2>
-                      <p class="text-gray-600 text-sm mb-4">
-                        Jan 2024 - Feb 2024
-                      </p>
-                      <div class="flex mt-4">
-                        <ul
-                          class="max-w-2xl space-y-1 text-gray-600 list-disc list-inside dark:text-gray-400"
-                        >
-                          <li>
-                            This app is generate a response based on user input
-                            from the given CSV Files
-                          </li>
-                          <li>Using Pandas AI, Open AI & Streamlit</li>
-                        </ul>
-                      </div>
-                      <div class="flex flex-wrap gap-2 my-4">
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Open AI</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Pandas AI</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Stream App</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Express</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Python 3.7</span
-                        >
-                      </div>
-                      <div class="flex items-center">
-                        <a
-                          href="https://github.com/NextGenGk/ChatCSV-Chat-with-CSV-files"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="mt-2 inline-flex items-center"
-                          style="
-                            background-color: #000000;
-                            color: white;
-                            border: none;
-                            border-radius: 0.375rem;
-                            padding: 0.25rem 0.9rem;
-                            font-size: 0.75rem;
-                            font-weight: 500;
-                            cursor: pointer;
-                          "
-                        >
-                          <svg
-                            style="
-                              width: 0.7rem;
-                              height: 0.7rem;
-                              margin-right: 0.375rem;
-                            "
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
-                              clip-rule="evenodd"
-                            />
-                          </svg>
-                          Source
-                        </a>
-                      </div>                      
-                    </div>
-                  </div>
-
-                  <!-- Fourth Card -->
-                  <div
-                    class="w-1/2 max-w-sm bg-white border border-white-200 rounded-lg shadow-lg mb-6"
-                  >
-                    <div class="p-6">
-                      <h2 class="text-xl font-bold mb-2">
-                        Developed a Employee Management System ( Using Python ).
-                      </h2>
-                      <p class="text-gray-600 text-sm mb-4">
-                        Feb 2024 - Mar 2024
-                      </p>
-                      <div class="flex mt-4">
-                        <ul
-                          class="max-w-2xl space-y-1 text-gray-600 list-disc list-inside dark:text-gray-400"
-                        >
-                          <li>
-                            This Employee Management System performs basic CRUD
-                            Operations.
-                          </li>
-                          <li>
-                            Using Django (Python’s Framework) & Bootstrap.
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="flex flex-wrap gap-2 my-4">
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >AWS S3</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >CloudFront</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Route53</span
-                        >
-                        <span
-                          class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
-                          >Express</span
-                        >
-                      </div>
-                      <div class="flex items-center">
-                        <a
-                          href="https://github.com/NextGenGk/Employee-Management-System-In-Python-Django"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="mt-2"
-                          style="
-                            background-color: #000000;
-                            color: white;
-                            border: none;
-                            border-radius: 0.375rem;
-                            padding: 0.25rem 0.9rem;
-                            display: inline-flex;
-                            align-items: center;
-                            font-size: 0.75rem;
-                            font-weight: 500;
-                            cursor: pointer;
-                          "
-                        >
-                          <svg
-                            style="
-                              width: 0.7rem;
-                              height: 0.7rem;
-                              margin-right: 0.375rem;
-                            "
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
-                              clip-rule="evenodd"
-                            />
-                          </svg>
-                          Source
-                        </a>
-                      </div>                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex items-center justify-center mt-8">
-              <div class="text-center pt-16 pb-40">
-                <button
-                  class="bg-black text-white text-sm font-medium px-3 py-1 rounded-lg"
-                >
-                  Contact Me
-                </button>
-                <h1 class="text-4xl font-bold mt-2">Get in Touch</h1>
-                <p class="text-gray-700 text-xl font-medium mt-4 px-4">
-                  Have a project or just want to chat? Drop me a message below
-                  or email me at
-                  <a
-                    href="mailto:atkola12345@gmail.com"
-                    class="text-lg text-blue-400"
-                    >atkola12345@gmail.com</a
-                  >. Let’s connect!
-                </p>
-              </div>
-            </div>
-
-            <nav
-              class="bg-white border border-gray-300 shadow-lg rounded-full py-4 px-8 flex justify-center items-center space-x-4 fixed bottom-6 left-1/2 transform -translate-x-1/2 w-max"
-            >
-              <a
-                href="#"
-                class="customHover relative group hover:text-blue-500 hover:shadow-xl hover:scale-105 transform transition-all duration-200 px-2"
-              >
-                <img src="assets/home.256x229.png" alt="Home" class="w-4 h-4" />
-                <span
-                  class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-black text-white text-xs font-medium rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                >
-                  Home
-                </span>
-              </a>
-              <a
-                href="#"
-                class="customHover relative group hover:text-blue-500 hover:shadow-xl hover:scale-105 transform transition-all duration-200 px-2"
-              >
-                <img
-                  src="assets/rounded-aboutme.255x256.png"
-                  alt="About"
-                  class="w-5 h-5 object-contain"
-                />
-                <span
-                  class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-black text-white text-xs font-medium rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                >
-                  About
-                </span>
-              </a>
-
-              <a
-                href="https://github.com/NextGenGk"
-                class="customHover relative group hover:text-blue-500 hover:shadow-xl hover:scale-105 transform transition-all duration-200 px-2"
-              >
-                <img
-                  src="assets/github.256x251.png"
-                  alt="Github"
-                  class="w-4 h-4"
-                />
-                <span
-                  class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-black text-white text-xs font-medium rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                >
-                  Github
-                </span>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/gauravkumar077/"
-                class="customHover relative group hover:text-blue-500 hover:shadow-xl hover:scale-105 transform transition-all duration-200 px-2"
-              >
-                <img
-                  src="assets/linkedin.256x256.png"
-                  alt="Linkedin"
-                  class="w-4 h-4"
-                />
-                <span
-                  class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-black text-white text-xs font-medium rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                >
-                  Linkedin
-                </span>
-              </a>
-              <a
-                href="https://x.com/gauravkumar1697"
-                class="customHover relative group hover:text-blue-500 hover:shadow-xl hover:scale-105 transform transition-all duration-200 px-2"
-              >
-                <img src="assets/twitter.256x209.png" alt="X" class="w-4 h-4" />
-                <span
-                  class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-black text-white text-xs font-medium rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                >
-                  x
-                </span>
-              </a>
-            </nav>
           </div>
-        </div>
+
+          <div class="mt-4">
+            <div class="flex justify-between items-center">
+              <div class="flex items-top">
+                <img class="w-9 h-9 rounded-square border-2 bg-slate-100" src="assets/cognitiveclass_logo.jfif"
+                  alt="Python" />
+                <div class="ml-4">
+                  <h3 class="text-lg font-medium">Python Certification</h3>
+                  <p class="text-gray-600 font-normal text-sm -mt-1">
+                    By Cognitive Class
+                  </p>
+                </div>
+              </div>
+              <div>
+                <p class="text-gray-600 font-normal text-base">April 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4">
+            <div class="flex justify-between items-top">
+              <div class="flex items-center">
+                <img class="w-9 h-9 rounded-square border-2 bg-slate-100" src="assets/udemy_logo.jfif"
+                  alt="Wordpress" />
+                <div class="ml-4">
+                  <h3 class="text-lg font-medium">Wordpress Certification</h3>
+                  <p class="text-gray-600 font-normal text-sm -mt-1">
+                    By Udemy
+                  </p>
+                </div>
+              </div>
+              <div>
+                <p class="text-gray-600 font-normal text-base">May 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4">
+            <div class="flex justify-between items-top">
+              <div class="flex items-center">
+                <img class="w-9 h-9 rounded-square" src="assets/simpiliearn_logo.jfif" alt="Git" />
+                <div class="ml-4">
+                  <h3 class="text-lg font-medium">
+                    Git & Github Certification
+                  </h3>
+                  <p class="text-gray-600 font-normal text-sm -mt-1">
+                    By Simpiliearn
+                  </p>
+                </div>
+              </div>
+              <div>
+                <p class="text-gray-600 font-normal text-base">May 2022</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article id="projects">
+          <div class="flex items-center justify-center mt-8">
+            <div class="text-center py-16">
+              <button class="bg-black text-white text-sm font-medium px-3 py-1 rounded-lg">
+                My Projects
+              </button>
+              <h1 class="text-4xl font-bold mt-2">
+                Check out my latest work
+              </h1>
+              <p class="text-gray-700 text-xl font-medium mt-4 px-4">
+                I've worked on a variety of projects, from simple websites to
+                complex web applications. Here are a few of my favorites.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center">
+            <div class="max-w-2xl mx-auto pt-2">
+              <div class="mt-2 flex justify-between space-x-4">
+                <div class="w-1/2 max-w-sm bg-white border border-white-200 rounded-lg shadow-lg mb-6">
+                  <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">
+                      AWS Lambda Function to automatically stop and start EC2
+                      Instances
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4">
+                      Jan 2024 - Feb 2024
+                    </p>
+                    <div class="flex mt-4">
+                      <ul class="max-w-2xl space-y-1 text-gray-600 list-disc list-inside dark:text-gray-400">
+                        <li>
+                          Scripted a Lambda function using Python3.7 which
+                          stop and start the EC2 instances.
+                        </li>
+                        <li>
+                          Triggered the Lambda function using a Cloudwatch
+                          event.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="flex flex-wrap gap-2 my-4">
+                      <span class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">AWS EC2
+                        Server</span>
+                      <span class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Lambdas
+                        Function</span>
+                      <span
+                        class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Cloudwatch</span>
+                      <span
+                        class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Express</span>
+                      <span class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Python
+                        3.7</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-1/2 max-w-sm bg-white border border-white-200 rounded-lg shadow-lg mb-6">
+                  <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">
+                      Static website hosted on AWS S3.
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4">
+                      Feb 2024 - Mar 2024
+                    </p>
+                    <div class="flex mt-4">
+                      <ul class="max-w-2xl space-y-1 text-gray-600 list-disc list-inside dark:text-gray-400">
+                        <li>
+                          Deployed a static website on AWS S3 and Implemented
+                          HTTPS and OAI using CloudFront
+                        </li>
+                        <li>
+                          Created a public hosted zone in Route53 to route the
+                          requests to CloudFront distribution.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="flex flex-wrap gap-2 my-4">
+                      <span class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">AWS
+                        S3</span>
+                      <span
+                        class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">CloudFront</span>
+                      <span
+                        class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Route53</span>
+                      <span
+                        class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Express</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center justify-center">
+            <div class="max-w-2xl mx-auto py-2">
+              <div class="mt-4 flex justify-between space-x-4">
+                <div class="w-1/2 max-w-sm bg-white border border-white-200 rounded-lg shadow-lg mb-6">
+                  <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">
+                      Developed a ChatCSV App (Chat with our own CSV files)
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4">
+                      Jan 2024 - Feb 2024
+                    </p>
+                    <div class="flex mt-4">
+                      <ul class="max-w-2xl space-y-1 text-gray-600 list-disc list-inside dark:text-gray-400">
+                        <li>
+                          This app is generate a response based on user input
+                          from the given CSV Files
+                        </li>
+                        <li>Using Pandas AI, Open AI & Streamlit</li>
+                      </ul>
+                    </div>
+                    <div class="flex flex-wrap gap-2 my-4">
+                      <span class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Open
+                        AI</span>
+                      <span class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Pandas
+                        AI</span>
+                      <span class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Stream
+                        App</span>
+                      <span
+                        class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Express</span>
+                      <span class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Python
+                        3.7</span>
+                    </div>
+                    <div class="flex items-center">
+                      <a href="https://github.com/NextGenGk/ChatCSV-Chat-with-CSV-files" target="_blank"
+                        rel="noopener noreferrer" class="mt-2 inline-flex items-center" style="
+                                  background-color: #000000;
+                                  color: white;
+                                  border: none;
+                                  border-radius: 0.375rem;
+                                  padding: 0.25rem 0.9rem;
+                                  font-size: 0.75rem;
+                                  font-weight: 500;
+                                  cursor: pointer;
+                                ">
+                        <svg style="
+                                    width: 0.7rem;
+                                    height: 0.7rem;
+                                    margin-right: 0.375rem;
+                                  " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                          viewBox="0 0 20 20">
+                          <path fill-rule="evenodd"
+                            d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                            clip-rule="evenodd" />
+                        </svg>
+                        Source
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Fourth Card -->
+                <div class="w-1/2 max-w-sm bg-white border border-white-200 rounded-lg shadow-lg mb-6">
+                  <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">
+                      Developed a Employee Management System ( Using Python ).
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4">
+                      Feb 2024 - Mar 2024
+                    </p>
+                    <div class="flex mt-4">
+                      <ul class="max-w-2xl space-y-1 text-gray-600 list-disc list-inside dark:text-gray-400">
+                        <li>
+                          This Employee Management System performs basic CRUD
+                          Operations.
+                        </li>
+                        <li>
+                          Using Django (Python’s Framework) & Bootstrap.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="flex flex-wrap gap-2 my-4">
+                      <span class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">AWS
+                        S3</span>
+                      <span
+                        class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">CloudFront</span>
+                      <span
+                        class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Route53</span>
+                      <span
+                        class="bg-gray-200 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded">Express</span>
+                    </div>
+                    <div class="flex items-center">
+                      <a href="https://github.com/NextGenGk/Employee-Management-System-In-Python-Django" target="_blank"
+                        rel="noopener noreferrer" class="mt-2" style="
+                                  background-color: #000000;
+                                  color: white;
+                                  border: none;
+                                  border-radius: 0.375rem;
+                                  padding: 0.25rem 0.9rem;
+                                  display: inline-flex;
+                                  align-items: center;
+                                  font-size: 0.75rem;
+                                  font-weight: 500;
+                                  cursor: pointer;
+                                ">
+                        <svg style="
+                                    width: 0.7rem;
+                                    height: 0.7rem;
+                                    margin-right: 0.375rem;
+                                  " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                          viewBox="0 0 20 20">
+                          <path fill-rule="evenodd"
+                            d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                            clip-rule="evenodd" />
+                        </svg>
+                        Source
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article id="contact">
+          <div class="flex items-center justify-center mt-8">
+            <div class="text-center pt-16 pb-40">
+              <button class="bg-black text-white text-sm font-medium px-3 py-1 rounded-lg">
+                Contact Me
+              </button>
+              <h1 class="text-4xl font-bold mt-2">Get in Touch</h1>
+              <p class="text-gray-700 text-xl font-medium mt-4 px-4">
+                Have a project or just want to chat? Drop me a message below
+                or email me at
+                <a href="mailto:atkola12345@gmail.com" class="text-lg text-blue-400">atkola12345@gmail.com</a>. Let’s
+                connect!
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <nav
+          class="bg-white border border-gray-300 shadow-lg rounded-full py-4 px-8 flex justify-center items-center space-x-4 fixed bottom-6 left-1/2 transform -translate-x-1/2 w-max">
+          <a href="#"
+            class="customHover relative group hover:text-blue-500 hover:shadow-xl hover:scale-105 transform transition-all duration-200 px-2">
+            <img src="assets/home.256x229.png" alt="Home" class="w-4 h-4" />
+            <span
+              class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-black text-white text-xs font-medium rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Home
+            </span>
+          </a>
+          <a href="#"
+            class="customHover relative group hover:text-blue-500 hover:shadow-xl hover:scale-105 transform transition-all duration-200 px-2">
+            <img src="assets/rounded-aboutme.255x256.png" alt="About" class="w-5 h-5 object-contain" />
+            <span
+              class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-black text-white text-xs font-medium rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              About
+            </span>
+          </a>
+
+          <a href="https://github.com/NextGenGk"
+            class="customHover relative group hover:text-blue-500 hover:shadow-xl hover:scale-105 transform transition-all duration-200 px-2">
+            <img src="assets/github.256x251.png" alt="Github" class="w-4 h-4" />
+            <span
+              class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-black text-white text-xs font-medium rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Github
+            </span>
+          </a>
+          <a href="https://www.linkedin.com/in/gauravkumar077/"
+            class="customHover relative group hover:text-blue-500 hover:shadow-xl hover:scale-105 transform transition-all duration-200 px-2">
+            <img src="assets/linkedin.256x256.png" alt="Linkedin" class="w-4 h-4" />
+            <span
+              class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-black text-white text-xs font-medium rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Linkedin
+            </span>
+          </a>
+          <a href="https://x.com/gauravkumar1697"
+            class="customHover relative group hover:text-blue-500 hover:shadow-xl hover:scale-105 transform transition-all duration-200 px-2">
+            <img src="assets/twitter.256x209.png" alt="X" class="w-4 h-4" />
+            <span
+              class="absolute bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2 bg-black text-white text-xs font-medium rounded py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              x
+            </span>
+          </a>
+        </nav>
       </div>
     </div>
+    </div>
+    </div>
+  </main>
 
-    <div
-      id="cursor"
-      class="fixed w-6 h-6 bg-black rounded-full pointer-events-none z-50"
-    ></div>
-    <div
-      id="trail"
-      class="fixed w-3 h-3 bg-black rounded-full pointer-events-none z-50"
-    ></div>
-    <script src="cursor.js"></script>
 
-    <script src="https://unpkg.com/kursor"></script>
-    <script>
-      new kursor({
-        type: 2,
-        color: "#111",
-      });
-    </script>
-  </body>
+  <script src="cursor.js"></script>
+
+  <script src="https://unpkg.com/kursor"></script>
+  <script>
+    new kursor({
+      type: 2,
+      color: "#111",
+    });
+  </script>
+</body>
+
 </html>
